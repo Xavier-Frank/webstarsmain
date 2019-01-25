@@ -1,0 +1,166 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+header
+{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(Reshot-by-Nodar.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;  
+    background-repeat: no-repeat;
+}
+.menu
+{
+    position: absolute;
+    list-style:none;
+    margin-top: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-right: 0px !important; */
+    border: 3px red;
+    padding: 18px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    opacity: .7;
+    /* margin-right: 2px; */
+    
+}
+.menu li
+{ 
+    
+    display: inline-block;
+    text-transform: uppercase;
+    padding-top: 5px;
+    /* margin-right: 2px; */
+    
+}
+.menu li a
+{
+    color:red;
+    text-decoration: none;
+    padding: 10px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+.menu li a:hover
+{
+   border:  1px solid red;
+   background-color: grey;
+   font-weight: bolder;
+   border-radius: 10px;
+   padding: 10px;
+}
+.menu li a:active
+{
+    /* border: 1px lightgray; */
+    font-weight: bolder;
+    
+} 
+
+.active
+{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    text-align: center;
+    border-bottom: auto;
+    /* padding-top: 5px; */
+}
+.button
+{
+    display: flex;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;    
+    margin-top: 30px;
+
+
+}
+.btn 
+{
+    color: red;
+    margin-right: 20px;    
+}
+
+.btn:hover
+{
+
+    border:1px groove black;
+    border-radius: 5px;
+    border-width: thick; 
+    font-weight: bolder;
+    border-right-style: groove;
+    border-right-width: thick;
+    border-left-style: groove;
+    border-left-width: thin;
+}
+.button2
+{
+    position: absolute;
+    color: red;
+    display: flex;
+    text-transform: uppercase;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 510px;
+    margin-left: 40%;
+    margin-right: 40%;
+    font-weight: bolder;
+}
+.logo
+{
+    position: absolute;
+    margin-right: 10px;
+    /* margin-top: 10px; */
+    /* border: 2px solid gray; */
+    padding: 5px;
+}
+.name
+{
+    text-transform: uppercase;
+    position: absolute;
+    display: flex;
+    margin-top: 90px;
+    margin-left:0px;
+    border-bottom: 1px solid whitesmoke;
+    font-family: fantasy;
+    color:black;
+    
+}
+.name:hover
+{
+    font-weight: bolder;
+}
+ul
+{
+    display: none;
+    position: absolute;
+    background-color: black;
+    padding: 5px;
+    font-weight: lighter;
+    color: white;
+    margin-top:10px;
+
+
+}
+.ul li 
+{
+    text-decoration: none;
+}
+.ul li a:hover
+{
+    
+    font-weight: bolder;
+    border-radius: 10px;
+    border-color:red;
+
+}
+ul li:hover ul
+{
+    display: grid;
+}
