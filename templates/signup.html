@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>WebStars|Create Account</title>
-  <link rel="stylesheet" href="log.css" type="text/css">
+  <link rel="stylesheet" href="../static/css/log.css" type="text/css">
 
 </head>
 <body>
@@ -17,7 +17,7 @@
         <input type="text" placeholder="password">
         <input type="text" placeholder="confirm password">
         <button>Create</button>
-        <p class="message">Already Registered? <a href="login.html">Login</a></p>
+        <p class="message">Already Registered? <a href="../templates/login.html">Login</a></p>
       </form>
 
     </div>
@@ -25,11 +25,11 @@
   </div>
 <div>
   <ul class="menu">
-    <li> <a href="index.html">home</a></li>
+    <li> <a href="../templates/home.html">home</a></li>
   </ul>
 </div>
 
-  <script src="jquery-3.3.1.min.js"></script>
+  <script src="../static/js/jquery-3.3.1.min.js"></script>
   <script>
     $('.message a').click(function(){
       $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
