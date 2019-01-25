@@ -5,7 +5,7 @@
 
 header
 {
-    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(Reshot-by-Nodar.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../img/Reshot-by-Nodar.jpg);
     background-size: cover;
     height: 100vh;
     background-position: center;  
